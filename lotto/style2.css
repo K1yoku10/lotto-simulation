@@ -1,0 +1,82 @@
+/* Resetowanie marginesów i paddingów */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Stylizacja ciała strony */
+body {
+    font-family: Arial, sans-serif; /* Wybór czcionki */
+    background-color: #4B0082; /* Ciemno fioletowe tło */
+    color: white; /* Biały kolor tekstu */
+    text-align: center; /* Wyrównanie tekstu do środka */
+    font-weight: bold; /* Pogrubienie tekstu */
+    line-height: 1.6; /* Lepsza czytelność */
+    min-height: 100vh; /* Zapełnienie całego ekranu */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* Nagłówek strony */
+h1 {
+    font-size: 3rem; /* Większy rozmiar tekstu */
+    margin-bottom: 20px; /* Odstęp od formularza */
+}
+
+/* Formularz logowania */
+form {
+    background-color: rgba(255, 255, 255, 0.1); /* Przezroczyste tło formularza */
+    border-radius: 10px; /* Zaokrąglone rogi formularza */
+    padding: 30px;
+    display: inline-block;
+    width: 100%;
+    max-width: 400px; /* Szerokość formularza */
+    margin: 0 auto; /* Wyśrodkowanie formularza */
+}
+
+/* Pola formularza */
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 2px solid #fff; /* Białe ramki */
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.3); /* Przezroczyste tło w polach */
+    color: white; /* Biały tekst w polach */
+    font-size: 1.1rem; /* Większy tekst w polach */
+}
+
+input[type="submit"] {
+    background-color: #800080; /* Ciemno fioletowy kolor przycisku */
+    color: white; /* Biały tekst na przycisku */
+    padding: 15px 25px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%; /* Szerokość przycisku na całą szerokość formularza */
+    margin-top: 20px;
+}
+
+input[type="submit"]:hover {
+    background-color: #6a006a; /* Jaśniejszy fiolet po najechaniu */
+}
+
+/* Stylizacja dla komunikatów */
+p {
+    margin-top: 20px;
+    font-size: 1.2rem;
+}
+
+/* Link do rejestracji */
+a {
+    color: #fff; /* Biały kolor linków */
+    text-decoration: none; /* Usunięcie podkreślenia */
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline; /* Podkreślenie linków po najechaniu */
+}

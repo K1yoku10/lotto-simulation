@@ -1,0 +1,50 @@
+/* Ustawienia ogólne */
+body {
+    background: linear-gradient(to bottom, black, blue);
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Kontener wyników */
+.container {
+    margin: 50px auto;
+    padding: 20px;
+    max-width: 600px;
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+}
+
+/* Nagłówki */
+h1 {
+    color: lightblue;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Liczby */
+.numbers {
+    font-weight: bold;
+    color: yellow;
+}
+
+/* Trafione liczby */
+.matches {
+    color: lime;
+    font-weight: bold;
+}
+
+/* Przycisk ponownego losowania */
+.retry-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    font-size: 1.2em;
+}

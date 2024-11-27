@@ -1,0 +1,120 @@
+/* Tło z gradientem czarno-niebieskim */
+body {
+    background: linear-gradient(to bottom, black, blue);
+    color: white; /* Biały tekst dla kontrastu */
+    font-weight: bold; /* Pogrubienie tekstu */
+    font-size: 1.5em; /* Powiększenie liter */
+    margin: 0; /* Usuń marginesy */
+    padding: 0; /* Usuń odstępy */
+    font-family: Arial, sans-serif; /* Czcionka bezszeryfowa */
+    text-align: center; /* Wyśrodkowanie zawartości */
+}
+
+/* Formularz */
+form {
+    margin: 20px auto; /* Wyśrodkowanie formularza */
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.7); /* Półprzezroczyste tło */
+    border-radius: 10px; /* Zaokrąglenie rogów */
+    display: inline-block; /* Dostosowanie do zawartości */
+}
+
+/* Pola formularza */
+input[type="number"], input[type="submit"] {
+    font-size: 1em;
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+/* Przycisk wysyłania */
+input[type="submit"] {
+    background-color: blue;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: lightblue;
+    color: black;
+}
+
+/* Linki */
+a {
+    color: lightblue;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+/* Kontener dla strony */
+.container {
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Obrazki po przeciwnych stronach */
+.ball-left {
+    position: absolute;
+    top: 20%;
+    left: 10px;
+}
+
+.ball-right {
+    position: absolute;
+    top: 20%;
+    right: 10px;
+}
+
+/* Styl dla obrazków kul */
+.lotto-ball {
+    width: 500px; /* Rozmiar obrazków */
+    height: auto;
+    border-radius: 50%; /* Efekt okrągłych obrazków */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    transition: transform 0.3s ease;
+}
+
+.lotto-ball:hover {
+    transform: scale(1.1); /* Powiększenie na hover */
+}
+
+/* Styl dla formularza */
+.lotto-form {
+    margin: 50px auto;
+    max-width: 300px;
+}
+
+/* Styl dla przycisków */
+.submit-button {
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: lightblue;
+    color: black;
+}
+
+/* Link do historii */
+.history-link {
+    color: yellow;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.history-link:hover {
+    text-decoration: underline;
+}
